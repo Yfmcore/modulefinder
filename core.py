@@ -1,11 +1,11 @@
 # prototype project by @yfimsky
-# version 1 alpha
+# version 1.1 alpha
 
-import os
 import importlib
 
-def getinfo():
-    importlib.import_module("a_test")
-    os.system("pause")
+def getmodule():
 
-getinfo()
+    inp = input("Write module to enable: ")
+    importlib.import_module(inp)
+        
+getmodule()
