@@ -1,5 +1,5 @@
 # prototype project by @yfimsky
-# version 1.1 alpha
+# version 1.2 alpha
 
 import importlib
 
